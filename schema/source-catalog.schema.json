@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schema/source-catalog.schema.json",
+  "title": "Official source catalog",
+  "type": "object",
+  "required": ["schemaVersion", "curriculum", "scope", "baseline", "sources"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "curriculum": { "const": "2022-revised-special-education" },
+    "scope": {
+      "type": "object",
+      "required": ["schoolLevels", "curriculumTypes"],
+      "properties": {
+        "schoolLevels": {
+          "type": "array",
+          "items": { "enum": ["middle", "high"] },
+          "uniqueItems": true
+        },
+        "curriculumTypes": {
+          "type": "array",
+          "items": { "enum": ["basic", "common", "elective"] },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "baseline": {
+      "type": "object",
+      "required": ["noticeId", "asOf"],
+      "properties": {
+        "noticeId": { "type": "string", "minLength": 1 },
+        "asOf": { "type": "string", "format": "date" }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "title",
+          "issuingAuthority",
+          "noticeNumber",
+          "publishedDate",
+          "annex",
+          "format",
+          "sourcePageUrl",
+          "downloadUrl",
+          "fileName",
+          "curriculumTypes",
+          "defaultSearch",
+          "rights"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "role": { "enum": ["base", "amendment", "interpretation"] },
+          "title": { "type": "string", "minLength": 1 },
+          "issuingAuthority": { "type": "string", "minLength": 1 },
+          "noticeNumber": { "type": "string", "minLength": 1 },
+          "publishedDate": { "type": "string", "format": "date" },
+          "annex": { "type": ["integer", "null"], "minimum": 1 },
+          "format": { "enum": ["hwp", "hwpx", "pdf"] },
+          "sourcePageUrl": { "type": "string", "format": "uri" },
+          "downloadUrl": { "type": "string", "format": "uri" },
+          "downloadRequest": {
+            "type": "object",
+            "required": [
+              "kind",
+              "discoveryUrl",
+              "endpointUrl",
+              "filePath",
+              "storedFileName",
+              "originalFileName",
+              "fileIdx",
+              "fileTbl"
+            ],
+            "properties": {
+              "kind": { "const": "ncic-form" },
+              "discoveryUrl": { "type": "string", "format": "uri" },
+              "endpointUrl": { "type": "string", "format": "uri" },
+              "filePath": { "type": "string", "pattern": "^/" },
+              "storedFileName": { "type": "string", "minLength": 1 },
+              "originalFileName": { "type": "string", "minLength": 1 },
+              "fileIdx": { "type": "string", "pattern": "^[0-9]+$" },
+              "fileTbl": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          },
+          "manualAcquisition": {
+            "type": "object",
+            "required": ["reason", "expectedOriginalFileName"],
+            "properties": {
+              "reason": { "const": "publisher-access-control" },
+              "expectedOriginalFileName": { "type": "string", "minLength": 1 },
+              "archiveEntry": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          },
+          "fileName": { "type": "string", "pattern": "^[a-zA-Z0-9._-]+$" },
+          "curriculumTypes": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "enum": ["basic", "common", "elective"] },
+            "uniqueItems": true
+          },
+          "defaultSearch": { "type": "boolean" },
+          "materialKind": { "enum": ["statutory", "commentary", "achievement", "research"] },
+          "supersededBy": { "type": "string", "minLength": 1 },
+          "incorporatesNoticeNumbers": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "uniqueItems": true
+          },
+          "rights": {
+            "type": "object",
+            "required": ["policy", "redistributeOriginal", "reviewRequired"],
+            "properties": {
+              "policy": { "type": "string" },
+              "attributionRequired": { "type": "boolean" },
+              "redistributeOriginal": { "const": false },
+              "reviewRequired": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,2393 @@
+{
+  "schemaVersion": "1.0.0",
+  "curriculum": "2022-revised-special-education",
+  "scope": {
+    "schoolLevels": [
+      "middle",
+      "high"
+    ],
+    "curriculumTypes": [
+      "basic",
+      "common",
+      "elective"
+    ]
+  },
+  "baseline": {
+    "noticeId": "kr-nec-2026-2",
+    "asOf": "2026-08-19"
+  },
+  "sources": [
+    {
+      "id": "kr-moe-2022-34-annex1",
+      "role": "base",
+      "title": "특수교육 교육과정 총론",
+      "issuingAuthority": "교육부",
+      "noticeNumber": "교육부 고시 제2022-34호",
+      "publishedDate": "2022-12-22",
+      "annex": 1,
+      "format": "hwp",
+      "sourcePageUrl": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93457&lev=0&m=040401",
+      "downloadUrl": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=24d0c6968fc7aefe3cb4d35aa4a53f33&m=040401&s=moe",
+      "fileName": "kr-moe-2022-34-annex1.hwp",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": false,
+      "supersededBy": "kr-nec-2026-2-annex1",
+      "rights": {
+        "policy": "source-terms",
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-moe-2022-34-annex2",
+      "role": "base",
+      "title": "유치원 교육과정, 공통 교육과정 및 선택 중심 교육과정",
+      "issuingAuthority": "교육부",
+      "noticeNumber": "교육부 고시 제2022-34호",
+      "publishedDate": "2022-12-22",
+      "annex": 2,
+      "format": "hwp",
+      "sourcePageUrl": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93457&lev=0&m=040401",
+      "downloadUrl": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=c3cb9e11f79efbc724a77d485dcdf8a1&m=040401&s=moe",
+      "fileName": "kr-moe-2022-34-annex2.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": false,
+      "supersededBy": "kr-nec-2026-2-annex2",
+      "rights": {
+        "policy": "source-terms",
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-moe-2022-34-annex3",
+      "role": "base",
+      "title": "기본 교육과정",
+      "issuingAuthority": "교육부",
+      "noticeNumber": "교육부 고시 제2022-34호",
+      "publishedDate": "2022-12-22",
+      "annex": 3,
+      "format": "hwp",
+      "sourcePageUrl": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93457&lev=0&m=040401",
+      "downloadUrl": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=0c03e8a01c523dcd9b54437fbdd030de&m=040401&s=moe",
+      "fileName": "kr-moe-2022-34-annex3.hwp",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": false,
+      "supersededBy": "kr-nec-2026-2-annex3",
+      "rights": {
+        "policy": "source-terms",
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nec-2024-3",
+      "role": "amendment",
+      "title": "초·중등학교 교육과정 일부개정(특수교육 공통·선택 중심 적용 참조)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": null,
+      "format": "hwpx",
+      "sourcePageUrl": "https://www.ne.go.kr/user/bbs/BD_selectBbs.do?q_bbsDocNo=20240927163706792&q_bbsSn=1016",
+      "downloadUrl": "https://www.ne.go.kr/component/file/ND_fileDownload.do?q_fileId=00f33f46-d775-4f52-8273-23832dec5bfe&q_fileSn=310",
+      "fileName": "kr-nec-2024-3.hwpx",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-4",
+      "role": "amendment",
+      "title": "특수교육 교육과정 일부개정",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-4호",
+      "publishedDate": "2024-08-16",
+      "annex": null,
+      "format": "hwpx",
+      "sourcePageUrl": "https://www.ne.go.kr/user/bbs/BD_selectBbs.do?q_bbsDocNo=20240927163706792&q_bbsSn=1016",
+      "downloadUrl": "https://www.ne.go.kr/component/file/ND_fileDownload.do?q_fileId=bfe1cf6f-68aa-4a59-9497-ed076f271fcf&q_fileSn=310",
+      "fileName": "kr-nec-2024-4.hwpx",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": false,
+      "supersededBy": "kr-nec-2026-2-annex1",
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2026-2",
+      "role": "amendment",
+      "title": "특수교육 교육과정 일부개정",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2026-2호",
+      "publishedDate": "2026-01-21",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.ne.go.kr/user/bbs/BD_selectBbs.do?q_bbsDocNo=20260121102419070&q_bbsSn=1016",
+      "downloadUrl": "https://www.ne.go.kr/component/file/ND_fileDownload.do?q_fileId=253ed7c7-28d6-4d89-9a47-b04f57af35bc&q_fileSn=666",
+      "fileName": "kr-nec-2026-2.pdf",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "국가교육위원회 고시 제2024-4호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2026-2-annex1",
+      "role": "base",
+      "title": "특수교육 교육과정 총론(2026-2 통합본)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2026-2호",
+      "publishedDate": "2026-01-21",
+      "annex": 1,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1862.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2026-2&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "caf62388-a899-4fb0-b6bc-0b1b67e342b1.hwp",
+        "originalFileName": "(2022 개정) 특수교육 교육과정 [별책1] 총론_국가교육위원회 고시 제2026-2호(2026.1.21.).hwp",
+        "fileIdx": "10004191",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2026-2-annex1.hwp",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-34호",
+        "국가교육위원회 고시 제2024-4호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2026-2-annex2",
+      "role": "base",
+      "title": "유치원, 공통 교육과정 및 선택 중심 교육과정(2026-2 통합본)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2026-2호",
+      "publishedDate": "2026-01-21",
+      "annex": 2,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1862.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2026-2&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "c0811924-a27a-4369-9b72-c495e9a1ec04.hwp",
+        "originalFileName": "(2022 개정) 특수교육 교육과정 [별책2] 유치원, 공통 및 선택 중심_국가교육위원회 고시 제2026-2호(2026.1.21.).hwp",
+        "fileIdx": "10004195",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2026-2-annex2.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-34호",
+        "국가교육위원회 고시 제2024-4호",
+        "국가교육위원회 고시 제2024-3호",
+        "국가교육위원회 고시 제2026-1호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2026-2-annex3",
+      "role": "base",
+      "title": "특수교육 기본 교육과정(2026-2 통합본)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2026-2호",
+      "publishedDate": "2026-01-21",
+      "annex": 3,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1862.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2026-2&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "d081fe45-551f-475c-a223-d633a2d63c93.hwp",
+        "originalFileName": "(2022 개정) 특수교육 교육과정 [별책3] 기본 _ 국가교육위원회 고시 제2026-2호(2026.1.21.).hwp",
+        "fileIdx": "10004193",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2026-2-annex3.hwp",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-34호",
+        "국가교육위원회 고시 제2024-4호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2026-1-annex3",
+      "role": "base",
+      "title": "중학교 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2026-1호",
+      "publishedDate": "2026-01-21",
+      "annex": 3,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2026-1&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "767856cf-e1cf-4b92-b6e7-97ee051f7121.hwp",
+        "originalFileName": "(2022 개정) 초·중등학교 교육과정 [별책3] 중학교_국가교육위원회 고시 제2026-1호(2026.1.21.).hwp",
+        "fileIdx": "10004185",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2026-1-annex3.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "국가교육위원회 고시 제2024-3호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2026-1-annex4",
+      "role": "base",
+      "title": "고등학교 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2026-1호",
+      "publishedDate": "2026-01-21",
+      "annex": 4,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2026-1&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "3adeddf7-30f4-4ac7-a8e9-bcff3267d752.hwp",
+        "originalFileName": "(2022 개정) 초·중등학교 교육과정 [별책4] 고등학교_국가교육위원회 제2026-1호(2026.1.21.).hwp",
+        "fileIdx": "10004189",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2026-1-annex4.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "국가교육위원회 고시 제2024-3호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex7",
+      "role": "base",
+      "title": "사회과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 7,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240821010034174.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책7]사회과_국가교육위원회 고시 제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004084",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex7.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex12",
+      "role": "base",
+      "title": "음악과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 12,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240820045518424.hwp",
+        "originalFileName": "(2022개정) 초·중등학교 교육과정 [별책12] 음악과_ 국가교육위원회 고시 제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004000",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex12.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex14",
+      "role": "base",
+      "title": "영어과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 14,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240820045351464.hwp",
+        "originalFileName": "(2022개정) 초·중등학교 교육과정 [별책14] 영어과_ 국가교육위원회 고시 제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10003996",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex14.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex18",
+      "role": "base",
+      "title": "중학교 선택 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 18,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240820050749454.hwp",
+        "originalFileName": "(2022개정) 초·중등학교 교육과정 [별책18] 중학교 선택교과_ 국가교육위원회 고시 제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004038",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex18.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex19",
+      "role": "base",
+      "title": "고등학교 교양 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 19,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240820045158963.hwp",
+        "originalFileName": "(2022개정) 초·중등학교 교육과정 [별책19] 고등학교 교양 교과_국가교육위원회 고시 제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10003992",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex19.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex22",
+      "role": "base",
+      "title": "예술 계열 선택 과목 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 22,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240820045438406.hwp",
+        "originalFileName": "(2022개정) 초·중등학교 교육과정 [별책22] 예술계열 선택 과목_국가교육위원회 고시 제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10003998",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex22.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex23",
+      "role": "base",
+      "title": "경영·금융 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 23,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20241023024845941.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책23]경영·금융전문교과__국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004131",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex23.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex24",
+      "role": "base",
+      "title": "보건·복지 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 24,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20241023024929149.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책24]보건·복지전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004133",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex24.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex25",
+      "role": "base",
+      "title": "문화·예술·디자인·방송 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 25,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826080927105.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책25]문화·예술·디자인·방송전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004095",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex25.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex26",
+      "role": "base",
+      "title": "미용 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 26,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826080942958.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책26]미용전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004097",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex26.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex27",
+      "role": "base",
+      "title": "관광·레저 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 27,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081049032.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책27]관광·레저전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004099",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex27.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex28",
+      "role": "base",
+      "title": "식품·조리 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 28,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081108962.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책28]식품·조리전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004101",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex28.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex29",
+      "role": "base",
+      "title": "건축·토목 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 29,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081137455.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책29]건축·토목전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004103",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex29.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex30",
+      "role": "base",
+      "title": "기계 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 30,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081159406.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책30]기계전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004105",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex30.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex31",
+      "role": "base",
+      "title": "재료 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 31,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081220377.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책31]재료전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004107",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex31.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex32",
+      "role": "base",
+      "title": "화학공업 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 32,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081241652.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책32]화학공업전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004109",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex32.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex33",
+      "role": "base",
+      "title": "섬유·의류 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 33,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081300235.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책33]섬유·의류전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004111",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex33.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex34",
+      "role": "base",
+      "title": "전기·전자 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 34,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081321245.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책34]전기·전자전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004113",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex34.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex35",
+      "role": "base",
+      "title": "정보·통신 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 35,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081356128.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책35]정보·통신전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004115",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex35.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex36",
+      "role": "base",
+      "title": "환경·안전·소방 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 36,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081438910.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책36]환경·안전·소방전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004117",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex36.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex37",
+      "role": "base",
+      "title": "농림·축산 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 37,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081458872.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책37]농림·축산전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004119",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex37.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex38",
+      "role": "base",
+      "title": "수산·해운 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 38,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826023042555.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책38]수산·해운전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004125",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex38.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex39",
+      "role": "base",
+      "title": "융복합·지식재산 전문 교과 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 39,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240826081549348.hwp",
+        "originalFileName": "(2022개정)초·중등학교교육과정[별책39]융복합·지식재산전문교과_국가교육위원회고시제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004123",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex39.hwp",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nec-2024-3-annex41",
+      "role": "base",
+      "title": "한국어 교육과정(특수교육 공통·선택 중심 준용)",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "국가교육위원회 고시 제2024-3호",
+      "publishedDate": "2024-08-16",
+      "annex": 41,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/ncicnotice/view/1859.do?page=1",
+      "downloadUrl": "https://ncic.re.kr/srch/download.do",
+      "downloadRequest": {
+        "kind": "ncic-form",
+        "discoveryUrl": "https://ncic.re.kr/srch/result_more.do?search=2022%EA%B0%9C%EC%A0%95&page=1&cate=attach",
+        "endpointUrl": "https://ncic.re.kr/srch/download.do",
+        "filePath": "/data/uploads/ncicinvFile/org/",
+        "storedFileName": "20240820050825403.hwp",
+        "originalFileName": "(2022개정) 초·중등학교 교육과정 [별책41] 한국어_국가교육위원회 고시 제2024-3호(2024.08.16.).hwp",
+        "fileIdx": "10004040",
+        "fileTbl": "NCIS_ORG_ATTACH_TYPE"
+      },
+      "fileName": "kr-nec-2024-3-annex41.hwp",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "incorporatesNoticeNumbers": [
+        "교육부 고시 제2022-33호"
+      ],
+      "rights": {
+        "policy": "KOGL-1",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-moe-2024-special-commentary",
+      "role": "interpretation",
+      "title": "2022 개정 교육과정 총론 해설_특수교육",
+      "issuingAuthority": "교육부",
+      "noticeNumber": "교육부 발간자료(2024)",
+      "publishedDate": "2024-02-23",
+      "annex": null,
+      "format": "hwp",
+      "sourcePageUrl": "https://ncic.re.kr/inv/org/list.do",
+      "downloadUrl": "https://ncic.re.kr/inv/org/download.do?year=2022&seq=10003839&orgType=ogi4",
+      "fileName": "kr-moe-2024-special-commentary.hwp",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "commentary",
+      "rights": {
+        "policy": "KOGL-2",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": false
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-guide",
+      "role": "interpretation",
+      "title": "장애학생 통합교육 교수·학습 지원을 위한 평가자료 활용 가이드북",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/list.do?boardID=813&m=010301&s=eduable",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240820_174642",
+      "fileName": "kr-nise-2024-special-evaluation-guide.pdf",
+      "curriculumTypes": [
+        "basic",
+        "common"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-korean",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 국어과 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/list.do?boardID=813&m=010301&s=eduable",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_094301",
+      "fileName": "kr-nise-2024-special-evaluation-korean.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-social",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 사회과 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/list.do?boardID=813&m=010301&s=eduable",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_095436",
+      "fileName": "kr-nise-2024-special-evaluation-social.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-science",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 과학과 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/list.do?boardID=813&m=010301&s=eduable",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_111136",
+      "fileName": "kr-nise-2024-special-evaluation-science.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-music",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 음악과 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/list.do?boardID=813&m=010301&s=eduable",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_114357",
+      "fileName": "kr-nise-2024-special-evaluation-music.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-art",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 미술과 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/list.do?boardID=813&m=010301&s=eduable",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_125651",
+      "fileName": "kr-nise-2024-special-evaluation-art.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-practical-arts",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 실과 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/list.do?boardID=813&m=010301&s=eduable",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_132119",
+      "fileName": "kr-nise-2024-special-evaluation-practical-arts.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-math",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 수학 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "hwp",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "기본 교육과정 평가자료_한글.zip",
+        "archiveEntry": "05(수학)_기본 교육과정 평가 자료.hwp"
+      },
+      "fileName": "kr-nise-2024-special-evaluation-math.hwp",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-pe",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 체육 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "hwp",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "기본 교육과정 평가자료_한글.zip",
+        "archiveEntry": "07(체육)_기본 교육과정 평가 자료.hwp"
+      },
+      "fileName": "kr-nise-2024-special-evaluation-pe.hwp",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-career",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 진로와 직업 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "hwp",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "기본 교육과정 평가자료_한글.zip",
+        "archiveEntry": "11(진로직업)_기본 교육과정 평가 자료.hwp"
+      },
+      "fileName": "kr-nise-2024-special-evaluation-career.hwp",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-evaluation-elective",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 선택교과 평가자료",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 평가자료(2024)",
+      "publishedDate": "2024-02-26",
+      "annex": null,
+      "format": "hwp",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "기본 교육과정 평가자료_한글.zip",
+        "archiveEntry": "12(선택교과)_기본 교육과정 평가 자료.hwp"
+      },
+      "fileName": "kr-nise-2024-special-evaluation-elective.hwp",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2026-high-achievement-book",
+      "title": "2022 개정 특수교육 기본 교육과정에 따른 고등학교 성취수준 자료집",
+      "publishedDate": "2026-01-02",
+      "format": "hwp",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=736771&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "fileName": "kr-nise-2026-high-achievement-book.hwp",
+      "role": "interpretation",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 고등학교 성취수준 자료(2026)",
+      "annex": null,
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=736771&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "(자료집)_2022 개정 특수교육 기본 교육과정에 따른 고등학교 성취수준.hwp"
+      },
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2026-high-achievement-research",
+      "title": "2022 개정 특수교육 기본 교육과정에 따른 고등학교 성취수준 개발 연구",
+      "publishedDate": "2026-01-02",
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=736771&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "fileName": "kr-nise-2026-high-achievement-research.pdf",
+      "role": "interpretation",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 고등학교 성취수준 자료(2026)",
+      "annex": null,
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=736771&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "(보고서)_2022 개정 특수교육 기본 교육과정에 따른 고등학교 성취수준 개발 연구.pdf"
+      },
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2026-high-achievement-application",
+      "title": "특수교육 기본 교육과정 고등학교 성취수준 활용자료",
+      "publishedDate": "2026-04-22",
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=743575&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "fileName": "kr-nise-2026-high-achievement-application.pdf",
+      "role": "interpretation",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 고등학교 성취수준 자료(2026)",
+      "annex": null,
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=743575&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "(웹탑재)_기본 교육과정 고등학교 성취수준 활용자료.pdf"
+      },
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "achievement",
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-professional-iryotherapy-achievement",
+      "title": "특수교육 전문교과[이료] 평가를 위한 성취수준 도움 자료집",
+      "publishedDate": "2024-12-30",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410826&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W",
+      "fileName": "kr-nise-2024-special-professional-iryotherapy-achievement.hwp",
+      "materialKind": "achievement",
+      "role": "interpretation",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 특수교육 전문교과 성취수준 자료(2024~2025)",
+      "annex": null,
+      "format": "hwp",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410826&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "특수교육 전문교과[이료] 평가를 위한 성취수준 도움 자료집.hwp"
+      },
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-professional-vocational-achievement",
+      "title": "특수교육 전문교과[직업생활] 평가를 위한 성취수준 도움 자료집",
+      "publishedDate": "2024-12-30",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410817&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W",
+      "fileName": "kr-nise-2024-special-professional-vocational-achievement.hwp",
+      "materialKind": "achievement",
+      "role": "interpretation",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 특수교육 전문교과 성취수준 자료(2024~2025)",
+      "annex": null,
+      "format": "hwp",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410817&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "특수교육 전문교과[직업생활] 평가를 위한 성취수준 도움 자료집.hwp"
+      },
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2025-special-selective-minimum-achievement",
+      "title": "선택 중심 교육과정 적용 특수교육대상학생을 위한 최소 성취수준 보장지도 도움자료",
+      "publishedDate": "2025-01-22",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410823&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W",
+      "fileName": "kr-nise-2025-special-selective-minimum-achievement.pdf",
+      "materialKind": "achievement",
+      "role": "interpretation",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 특수교육 전문교과 성취수준 자료(2024~2025)",
+      "annex": null,
+      "format": "pdf",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410823&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "선택 중심 교육과정 적용 특수교육대상학생을 위한 최소 성취수준 보장지도 도움자료.pdf"
+      },
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2024-special-professional-minimum-research",
+      "title": "특수교육 전문교과 최소 성취수준 보장지도 자료 개발 최종 연구결과 보고서",
+      "publishedDate": "2024-12-30",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410825&lev=0&m=010701&opType=N&page=3&s=eduable&searchType=null&statusYN=W",
+      "fileName": "kr-nise-2024-special-professional-minimum-research.hwp",
+      "materialKind": "research",
+      "role": "interpretation",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 특수교육 전문교과 성취수준 자료(2024~2025)",
+      "annex": null,
+      "format": "hwp",
+      "downloadUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410825&lev=0&m=010701&opType=N&page=3&s=eduable&searchType=null&statusYN=W",
+      "manualAcquisition": {
+        "reason": "publisher-access-control",
+        "expectedOriginalFileName": "특수교육 전문교과 최소 성취수준 보장지도 자료 개발 최종 연구결과 보고서.hwp"
+      },
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "rights": {
+        "policy": "NISE-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-health",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 기본 교육과정 선택교과(보건) 시안 개발 연구 보고서",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725496",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230207_101527",
+      "fileName": "kr-nise-2022-special-draft-health.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-social",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 사회과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725228",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230109_131631",
+      "fileName": "kr-nise-2022-special-draft-social.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-textbook-guidelines",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교과용도서 편찬 지침 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725203",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_125725",
+      "fileName": "kr-nise-2022-special-draft-textbook-guidelines.pdf",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-iryotherapy",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 선택 중심 교육과정 특수교육 전문 교과 이료과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725202",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_122338",
+      "fileName": "kr-nise-2022-special-draft-iryotherapy.pdf",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-vocational-life",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 선택 중심 교육과정 전문교과(직업생활) 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725201",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_113214",
+      "fileName": "kr-nise-2022-special-draft-vocational-life.pdf",
+      "curriculumTypes": [
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-pe-physical-disability",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 공통 교육과정 체육과(지체장애) 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725200",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_112353",
+      "fileName": "kr-nise-2022-special-draft-pe-physical-disability.pdf",
+      "curriculumTypes": [
+        "common"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-independent-living-visual",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 공통 및 선택 중심 교육과정 시각장애인 자립생활 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725199",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_111720",
+      "fileName": "kr-nise-2022-special-draft-independent-living-visual.pdf",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-pe-visual",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 공통 교육과정 체육과(시각장애) 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725198",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_111112",
+      "fileName": "kr-nise-2022-special-draft-pe-visual.pdf",
+      "curriculumTypes": [
+        "common"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-braille",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 공통 교육과정 점자 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725197",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_110442",
+      "fileName": "kr-nise-2022-special-draft-braille.pdf",
+      "curriculumTypes": [
+        "common"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-art-visual",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 공통 교육과정 미술과(시각장애) 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725196",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_101942",
+      "fileName": "kr-nise-2022-special-draft-art-visual.pdf",
+      "curriculumTypes": [
+        "common"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-deaf-life-culture",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 공통 및 선택 중심 교육과정 농인의 생활과 문화 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725195",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_101115",
+      "fileName": "kr-nise-2022-special-draft-deaf-life-culture.pdf",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-korean-hearing",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 공통 및 선택 중심 교육과정 국어과(청각장애) 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725194",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_102642",
+      "fileName": "kr-nise-2022-special-draft-korean-hearing.pdf",
+      "curriculumTypes": [
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-sign-language",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 공통 교육과정 수어 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725193",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_093946",
+      "fileName": "kr-nise-2022-special-draft-sign-language.pdf",
+      "curriculumTypes": [
+        "common"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-creative-activities",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 창의적 체험활동 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725192",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_105748",
+      "fileName": "kr-nise-2022-special-draft-creative-activities.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-daily-life",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 일상생활 활동 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725191",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_175500",
+      "fileName": "kr-nise-2022-special-draft-daily-life.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-ict",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 선택교과(정보통신활용) 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725190",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_105329",
+      "fileName": "kr-nise-2022-special-draft-ict.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-life-english",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 선택교과(생활영어) 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725189",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_104551",
+      "fileName": "kr-nise-2022-special-draft-life-english.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-career",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 진로와 직업 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725188",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_103825",
+      "fileName": "kr-nise-2022-special-draft-career.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-practical-arts",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 실과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725187",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_161020",
+      "fileName": "kr-nise-2022-special-draft-practical-arts.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-music",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 음악과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725186",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_155300",
+      "fileName": "kr-nise-2022-special-draft-music.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-art",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 미술과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725185",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_153544",
+      "fileName": "kr-nise-2022-special-draft-art.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-pe",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 체육과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725184",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_152627",
+      "fileName": "kr-nise-2022-special-draft-pe.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-science",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 과학과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725183",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=3&site=20230111_151158",
+      "fileName": "kr-nise-2022-special-draft-science.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-math",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 수학과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725182",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_143743",
+      "fileName": "kr-nise-2022-special-draft-math.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-korean",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 기본 교육과정 국어과 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-25",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725180",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230109_114029",
+      "fileName": "kr-nise-2022-special-draft-korean.pdf",
+      "curriculumTypes": [
+        "basic"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nise-2022-special-draft-general",
+      "role": "interpretation",
+      "title": "2022 개정 특수교육 교육과정 총론 시안 개발 연구",
+      "issuingAuthority": "교육부 국립특수교육원",
+      "noticeNumber": "국립특수교육원 교육과정 보고서(2022)",
+      "publishedDate": "2022-11-30",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=358&lev=0&m=010801&opType=N&page=1&s=nise&searchType=null&statusYN=W&boardSeq=725176",
+      "downloadUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230109_093724",
+      "fileName": "kr-nise-2022-special-draft-general.pdf",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "KOGL-4",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    },
+    {
+      "id": "kr-nec-2025-curriculum-monitoring-special",
+      "role": "interpretation",
+      "title": "2025년 국가교육과정 조사·분석·점검 결과 보고서 - 특수교육",
+      "issuingAuthority": "국가교육위원회",
+      "noticeNumber": "2025년 국가교육과정 조사·분석·점검 결과 보고서 별책16",
+      "publishedDate": "2026-06-15",
+      "annex": null,
+      "format": "pdf",
+      "sourcePageUrl": "https://ncic.re.kr/bbs/report/view/1884.do?page=589",
+      "downloadUrl": "https://ncic.re.kr/bbs/download.do?articleIdx=1884&fileName=1781482871117_m6c0.pdf",
+      "fileName": "kr-nec-2025-curriculum-monitoring-special.pdf",
+      "curriculumTypes": [
+        "basic",
+        "common",
+        "elective"
+      ],
+      "defaultSearch": true,
+      "materialKind": "research",
+      "rights": {
+        "policy": "NCIC-source-terms",
+        "attributionRequired": true,
+        "redistributeOriginal": false,
+        "reviewRequired": true
+      }
+    }
+  ]
+}

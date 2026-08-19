@@ -1,0 +1,820 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalogBaseline": {
+    "noticeId": "kr-nec-2026-2",
+    "asOf": "2026-08-19"
+  },
+  "generatedAt": "2026-08-19T06:28:33.754Z",
+  "receipts": [
+    {
+      "sourceId": "kr-moe-2022-34-annex1",
+      "fileName": "kr-moe-2022-34-annex1.hwp",
+      "downloadedAt": "2026-08-19T04:42:35.433Z",
+      "byteLength": 540672,
+      "sha256": "65fd2bcbfa27ca9f164ec1a76928f1b789ff4166299a81bfd0599b679383fc90",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=24d0c6968fc7aefe3cb4d35aa4a53f33&m=040401&s=moe"
+    },
+    {
+      "sourceId": "kr-moe-2022-34-annex2",
+      "fileName": "kr-moe-2022-34-annex2.hwp",
+      "downloadedAt": "2026-08-19T04:42:35.645Z",
+      "byteLength": 6133760,
+      "sha256": "3a3424c85726f46fa46d5e22d85f8173f462d04b072c9443ab119fe94a3e3e7c",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=c3cb9e11f79efbc724a77d485dcdf8a1&m=040401&s=moe"
+    },
+    {
+      "sourceId": "kr-moe-2022-34-annex3",
+      "fileName": "kr-moe-2022-34-annex3.hwp",
+      "downloadedAt": "2026-08-19T04:42:35.827Z",
+      "byteLength": 6143488,
+      "sha256": "702c163a44d388d2c4c4c295307390e024e4be1dbbff8f0c230b5bee84e0b2af",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=0c03e8a01c523dcd9b54437fbdd030de&m=040401&s=moe"
+    },
+    {
+      "sourceId": "kr-nec-2024-3",
+      "fileName": "kr-nec-2024-3.hwpx",
+      "downloadedAt": "2026-08-19T04:42:36.095Z",
+      "byteLength": 70988,
+      "sha256": "8b401c663ef6b1bf4eff68074127767e91fd515d21967944d1a1bb273250ee14",
+      "detectedFormat": "hwpx",
+      "contentType": null,
+      "finalUrl": "https://www.ne.go.kr/component/file/ND_fileDownload.do?q_fileId=00f33f46-d775-4f52-8273-23832dec5bfe&q_fileSn=310"
+    },
+    {
+      "sourceId": "kr-nec-2024-4",
+      "fileName": "kr-nec-2024-4.hwpx",
+      "downloadedAt": "2026-08-19T04:42:36.148Z",
+      "byteLength": 73072,
+      "sha256": "29f7825018e80362edebeb0035399f78d73656c9a843f956cbd9c208f414d818",
+      "detectedFormat": "hwpx",
+      "contentType": null,
+      "finalUrl": "https://www.ne.go.kr/component/file/ND_fileDownload.do?q_fileId=bfe1cf6f-68aa-4a59-9497-ed076f271fcf&q_fileSn=310"
+    },
+    {
+      "sourceId": "kr-nec-2026-2",
+      "fileName": "kr-nec-2026-2.pdf",
+      "downloadedAt": "2026-08-19T04:42:36.197Z",
+      "byteLength": 658784,
+      "sha256": "d73a997e6eb92fdd8f74cbc08c873d60a9cc2b5ae4900494751970a0f5de4ced",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.ne.go.kr/component/file/ND_fileDownload.do?q_fileId=253ed7c7-28d6-4d89-9a47-b04f57af35bc&q_fileSn=666"
+    },
+    {
+      "sourceId": "kr-nec-2026-2-annex1",
+      "fileName": "kr-nec-2026-2-annex1.hwp",
+      "downloadedAt": "2026-08-19T05:31:11.915Z",
+      "byteLength": 387584,
+      "sha256": "6f50c7b62171d7e6ae7fd284bc8ce38caff717f68ae352afbdd19cdcda8e4fe3",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2026-2-annex2",
+      "fileName": "kr-nec-2026-2-annex2.hwp",
+      "downloadedAt": "2026-08-19T05:31:12.231Z",
+      "byteLength": 6235648,
+      "sha256": "0850e7a0d08b90bd038548c7b5151bde1e68f16272b4e293c8e042e1179772bc",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2026-2-annex3",
+      "fileName": "kr-nec-2026-2-annex3.hwp",
+      "downloadedAt": "2026-08-19T05:31:12.407Z",
+      "byteLength": 2909696,
+      "sha256": "88f0f1a00e3b05337cc1b1d10282881beb68a104cb488f4a07ea3730251602b1",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2026-1-annex3",
+      "fileName": "kr-nec-2026-1-annex3.hwp",
+      "downloadedAt": "2026-08-19T05:31:12.686Z",
+      "byteLength": 9840640,
+      "sha256": "969f15db871a6707848d2a05ab8591026a5c32500a216760dd2b6eb17d39962c",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2026-1-annex4",
+      "fileName": "kr-nec-2026-1-annex4.hwp",
+      "downloadedAt": "2026-08-19T05:31:13.356Z",
+      "byteLength": 18451456,
+      "sha256": "a79a6a9eb9ff46e184a92f4c565d7e6d2f403d7130617a22c4c03f4bcfc08cc1",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex7",
+      "fileName": "kr-nec-2024-3-annex7.hwp",
+      "downloadedAt": "2026-08-19T05:31:13.582Z",
+      "byteLength": 2273280,
+      "sha256": "8dd9846e71822afea14809993de892396d1f9ed1238ce1f8461733909d6b2044",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex12",
+      "fileName": "kr-nec-2024-3-annex12.hwp",
+      "downloadedAt": "2026-08-19T05:31:13.754Z",
+      "byteLength": 2642944,
+      "sha256": "3b850baf44d50fcfe20fac238ccfbf2e0f1ec315d6e5e18fc20d55b52d72ad4e",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex14",
+      "fileName": "kr-nec-2024-3-annex14.hwp",
+      "downloadedAt": "2026-08-19T05:31:13.912Z",
+      "byteLength": 3764736,
+      "sha256": "640bc606c6589d05ec3c52a9a6cd4172ace0aba19479d9b1fbac6250ceca2422",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex18",
+      "fileName": "kr-nec-2024-3-annex18.hwp",
+      "downloadedAt": "2026-08-19T05:31:14.072Z",
+      "byteLength": 2911744,
+      "sha256": "f6f7ac624a3b1f0eb61f39807ac4997a9464508044b3c3145db995556ba07ca2",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex19",
+      "fileName": "kr-nec-2024-3-annex19.hwp",
+      "downloadedAt": "2026-08-19T05:31:14.354Z",
+      "byteLength": 6573568,
+      "sha256": "bd66fa601e1255275643e972c4e59e5ccb580b85c045b814c1b9c37be5b42ff5",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex22",
+      "fileName": "kr-nec-2024-3-annex22.hwp",
+      "downloadedAt": "2026-08-19T05:31:14.602Z",
+      "byteLength": 6155264,
+      "sha256": "9143c6633091784e2a4ed75dac6e0cc6f90e644018cf96893096843b07c06fac",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex23",
+      "fileName": "kr-nec-2024-3-annex23.hwp",
+      "downloadedAt": "2026-08-19T05:31:15.296Z",
+      "byteLength": 17997661,
+      "sha256": "e0f37afb65df24e6b9209da3cf98b1c75ea24f448a3bdeda74ecba2384df6f5c",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex24",
+      "fileName": "kr-nec-2024-3-annex24.hwp",
+      "downloadedAt": "2026-08-19T05:31:15.616Z",
+      "byteLength": 9310045,
+      "sha256": "babb33ca8f7c067369835e41838d7ab9c594a34a4b6ae0e9350c7e2ce5c2563e",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex25",
+      "fileName": "kr-nec-2024-3-annex25.hwp",
+      "downloadedAt": "2026-08-19T05:31:15.855Z",
+      "byteLength": 7139328,
+      "sha256": "0a906f3244ae3ce4e15ea6a200f09ac127e46e710cf210624bfbada0f70db4a1",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex26",
+      "fileName": "kr-nec-2024-3-annex26.hwp",
+      "downloadedAt": "2026-08-19T05:31:16.049Z",
+      "byteLength": 1139200,
+      "sha256": "181bd47ba7820fe8abaee28e820fff77789aab289f78e841eedfc7dbdb1cbaff",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex27",
+      "fileName": "kr-nec-2024-3-annex27.hwp",
+      "downloadedAt": "2026-08-19T05:31:16.177Z",
+      "byteLength": 3324928,
+      "sha256": "b4082547806116bdff3e5b8e4c73490f2854e57cc80e2b30352e4c8406e4d6d2",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex28",
+      "fileName": "kr-nec-2024-3-annex28.hwp",
+      "downloadedAt": "2026-08-19T05:31:16.377Z",
+      "byteLength": 6055424,
+      "sha256": "63701da534955817f8d8a2335621178e5ffd525473d0b0302ae11da5f7d8ee8b",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex29",
+      "fileName": "kr-nec-2024-3-annex29.hwp",
+      "downloadedAt": "2026-08-19T05:31:16.531Z",
+      "byteLength": 3439616,
+      "sha256": "e40856ed4a577097741a4af97c9a6de0df95a6189c2bfd63f09c265064322275",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex30",
+      "fileName": "kr-nec-2024-3-annex30.hwp",
+      "downloadedAt": "2026-08-19T05:31:16.827Z",
+      "byteLength": 8350208,
+      "sha256": "db22dd332709e7f86d767c7110f0136bd89180dd19b342683362b3cef9c1e921",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex31",
+      "fileName": "kr-nec-2024-3-annex31.hwp",
+      "downloadedAt": "2026-08-19T05:31:16.956Z",
+      "byteLength": 3324928,
+      "sha256": "c7bd512d27db215362e603746f8c522dd33bed14dd248e04671f85e5f5229d98",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex32",
+      "fileName": "kr-nec-2024-3-annex32.hwp",
+      "downloadedAt": "2026-08-19T05:31:17.070Z",
+      "byteLength": 3283456,
+      "sha256": "4e4284bdf0ff3b0ecf358ec783684b1ffa95e0ce6e02962f11068d7d9b6d71d8",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex33",
+      "fileName": "kr-nec-2024-3-annex33.hwp",
+      "downloadedAt": "2026-08-19T05:31:17.189Z",
+      "byteLength": 2723328,
+      "sha256": "41d1776e2416221c460045204a116f4ab73d782bc51e4d7ddba60833206de0a0",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex34",
+      "fileName": "kr-nec-2024-3-annex34.hwp",
+      "downloadedAt": "2026-08-19T05:31:17.385Z",
+      "byteLength": 6474752,
+      "sha256": "344b6a9fd8bb4fdbfae2533f41082db48803ceac9154c98cbd643a51144d78c3",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex35",
+      "fileName": "kr-nec-2024-3-annex35.hwp",
+      "downloadedAt": "2026-08-19T05:31:17.546Z",
+      "byteLength": 5200384,
+      "sha256": "7173afe584787e1d870becae64d196f74beceb1451613ca4ce7f8253d1bcd37d",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex36",
+      "fileName": "kr-nec-2024-3-annex36.hwp",
+      "downloadedAt": "2026-08-19T05:31:17.704Z",
+      "byteLength": 5383168,
+      "sha256": "f2b2c7afb292342ad6ee76bc0b8dd698da148ee030ec6a93c2ca1380dee1a970",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex37",
+      "fileName": "kr-nec-2024-3-annex37.hwp",
+      "downloadedAt": "2026-08-19T05:31:17.799Z",
+      "byteLength": 2096128,
+      "sha256": "9da2228a94e71b6bc3fc1d401120ad357ecb4929041f78ea2dc1453bedf50ca6",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex38",
+      "fileName": "kr-nec-2024-3-annex38.hwp",
+      "downloadedAt": "2026-08-19T05:31:17.923Z",
+      "byteLength": 3555840,
+      "sha256": "8f643548b53f9df654e624f0a9718f8911481eaba5917d332072d2feb2c93cb7",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex39",
+      "fileName": "kr-nec-2024-3-annex39.hwp",
+      "downloadedAt": "2026-08-19T05:31:18.038Z",
+      "byteLength": 2223104,
+      "sha256": "b60e41018377c6699798a6bffeaf798f2ac25cd1e57f9524700422a0345c75b7",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-nec-2024-3-annex41",
+      "fileName": "kr-nec-2024-3-annex41.hwp",
+      "downloadedAt": "2026-08-19T05:31:18.130Z",
+      "byteLength": 701952,
+      "sha256": "85d7ffba4205c297dbd8d0ea0eeda01e87acc1d8ae0f5b8e46cf0ec4cfaa800e",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/srch/download.do"
+    },
+    {
+      "sourceId": "kr-moe-2024-special-commentary",
+      "fileName": "kr-moe-2024-special-commentary.hwp",
+      "downloadedAt": "2026-08-19T05:39:28.576Z",
+      "byteLength": 5991936,
+      "sha256": "44937e2e44c3e2bc4e9f85df97ce78f705a5516ec1d619148fd3256fc16bd70f",
+      "detectedFormat": "hwp",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/inv/org/download.do?year=2022&seq=10003839&orgType=ogi4"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-guide",
+      "fileName": "kr-nise-2024-special-evaluation-guide.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.201Z",
+      "byteLength": 9759476,
+      "sha256": "b68d32ae5188d01eaa33a66794f61bc7c892a90b1e2b314ee1b5728f8bf5ab3a",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240820_174642"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-korean",
+      "fileName": "kr-nise-2024-special-evaluation-korean.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.237Z",
+      "byteLength": 3486250,
+      "sha256": "4ebb7322aae00bfa3995a5f892d2058d8c8b1c0b6ac0430dc71866aa989e2c61",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_094301"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-social",
+      "fileName": "kr-nise-2024-special-evaluation-social.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.251Z",
+      "byteLength": 3379093,
+      "sha256": "e59c49c5c2641f0c79017fbfa618ded7db26050f7995403271cb2bdaf45f5aa2",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_095436"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-science",
+      "fileName": "kr-nise-2024-special-evaluation-science.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.266Z",
+      "byteLength": 3546614,
+      "sha256": "d43474fd056afc29cd583eaac5356c99306a41e40050afc001029744468f577f",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_111136"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-music",
+      "fileName": "kr-nise-2024-special-evaluation-music.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.280Z",
+      "byteLength": 3313836,
+      "sha256": "7c9f4e83c1a9279dcff2ac751efda569fd60f723ad55ae38f5104bcdb7922454",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_114357"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-art",
+      "fileName": "kr-nise-2024-special-evaluation-art.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.295Z",
+      "byteLength": 2981030,
+      "sha256": "7c4de4fc3d9b4edbd8025e88d3a6683b8f2974082a0a62292b18c128163884e0",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_125651"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-practical-arts",
+      "fileName": "kr-nise-2024-special-evaluation-practical-arts.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.312Z",
+      "byteLength": 4502880,
+      "sha256": "a54ef1581c9ecbbc6124250e104d0378426c5ba2e3c3d7f6373d94e0305db508",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20240226_132119"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-math",
+      "fileName": "kr-nise-2024-special-evaluation-math.hwp",
+      "downloadedAt": "2026-08-19T06:14:41.852Z",
+      "byteLength": 18902528,
+      "sha256": "d281a4101cdd97cc9c6c904355b6e409259470b86ee7db117ec9c46253de6d84",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-pe",
+      "fileName": "kr-nise-2024-special-evaluation-pe.hwp",
+      "downloadedAt": "2026-08-19T06:14:42.022Z",
+      "byteLength": 8629760,
+      "sha256": "28e9cd046647e4a4a37d0897b3a63385794d631ab4dff6aac89096a0b6b5468d",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-career",
+      "fileName": "kr-nise-2024-special-evaluation-career.hwp",
+      "downloadedAt": "2026-08-19T06:14:42.103Z",
+      "byteLength": 7939072,
+      "sha256": "0cc3778b5f7f2c4b96a00462dcbb3ebf669a83b373ba49ec65d3c04ec04b673f",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-evaluation-elective",
+      "fileName": "kr-nise-2024-special-evaluation-elective.hwp",
+      "downloadedAt": "2026-08-19T06:14:42.179Z",
+      "byteLength": 11672576,
+      "sha256": "6f486ddea6339263780164fc11ee725eff93498aa6f0af895f6e169b6dd17753",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=813&boardSeq=400333&lev=0&m=010301&opType=N&page=1&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2026-high-achievement-book",
+      "fileName": "kr-nise-2026-high-achievement-book.hwp",
+      "downloadedAt": "2026-08-19T06:14:42.383Z",
+      "byteLength": 4391424,
+      "sha256": "cfe0390ca4a38021ead10aa56642885cbcf02c6b593c5080523b4e2b2d0f4aa8",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=736771&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2026-high-achievement-research",
+      "fileName": "kr-nise-2026-high-achievement-research.pdf",
+      "downloadedAt": "2026-08-19T06:14:42.500Z",
+      "byteLength": 3952793,
+      "sha256": "88e3e6dbc181486adcc4460724382b3eff50f27c24f07396499172d4451ead48",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=736771&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2026-high-achievement-application",
+      "fileName": "kr-nise-2026-high-achievement-application.pdf",
+      "downloadedAt": "2026-08-19T06:14:42.724Z",
+      "byteLength": 25858184,
+      "sha256": "1ff9d057ce2ed83df3f0a4dcbf0298ee34cf652476ab51f01042f6609add8a6e",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=743575&lev=0&m=010701&opType=N&page=1&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-professional-iryotherapy-achievement",
+      "fileName": "kr-nise-2024-special-professional-iryotherapy-achievement.hwp",
+      "downloadedAt": "2026-08-19T06:28:33.063Z",
+      "byteLength": 5781504,
+      "sha256": "e21f10d7d44590e09c5e7fb9315339f22ff0af095b8723f3e1e78a8a8b7938a0",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410826&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-professional-vocational-achievement",
+      "fileName": "kr-nise-2024-special-professional-vocational-achievement.hwp",
+      "downloadedAt": "2026-08-19T06:28:33.259Z",
+      "byteLength": 15858176,
+      "sha256": "72974f058d17d68816a9d56ccd2fe664ade9e840d6736a5c33c478adcdf7eabf",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410817&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2025-special-selective-minimum-achievement",
+      "fileName": "kr-nise-2025-special-selective-minimum-achievement.pdf",
+      "downloadedAt": "2026-08-19T06:28:33.525Z",
+      "byteLength": 46550181,
+      "sha256": "747cc4822733e7e469fafd0103aa93f5ad9f917fd469147ae41f35206f4a16bb",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410823&lev=0&m=010701&opType=N&page=2&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2024-special-professional-minimum-research",
+      "fileName": "kr-nise-2024-special-professional-minimum-research.hwp",
+      "downloadedAt": "2026-08-19T06:28:33.716Z",
+      "byteLength": 7572480,
+      "sha256": "56bb5e884e1ae88e521be66ac7dded37f6e07e8547caea735933f24bb3bd01ef",
+      "detectedFormat": "hwp",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/boardCnts/view.do?boardID=819&boardSeq=410825&lev=0&m=010701&opType=N&page=3&s=eduable&searchType=null&statusYN=W"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-health",
+      "fileName": "kr-nise-2022-special-draft-health.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.328Z",
+      "byteLength": 1208397,
+      "sha256": "fe1d5ae8d7986ca6ead46db056244126a75abe43ad1e46907ae3f1282583b4cd",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230207_101527"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-social",
+      "fileName": "kr-nise-2022-special-draft-social.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.334Z",
+      "byteLength": 1895367,
+      "sha256": "cd2eb16994811387eaaa1d89f9baa9a7df5dd41938ddd110a42458818aa536df",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230109_131631"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-textbook-guidelines",
+      "fileName": "kr-nise-2022-special-draft-textbook-guidelines.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.404Z",
+      "byteLength": 71285216,
+      "sha256": "14f84416de4ee27d18351f6bff4e61703888ea939e4a8425c5242dd4a84b0e03",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_125725"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-iryotherapy",
+      "fileName": "kr-nise-2022-special-draft-iryotherapy.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.630Z",
+      "byteLength": 8966404,
+      "sha256": "64f1a13a22c32285e07b30e13d8a8ce2faaddd8c3c490dd1e83210a8f6bbfa1c",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_122338"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-vocational-life",
+      "fileName": "kr-nise-2022-special-draft-vocational-life.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.665Z",
+      "byteLength": 7707133,
+      "sha256": "ca3f010e84e9981311dcae70c1380d5efcd9093c0a426c98e8b55f349077d54b",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_113214"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-pe-physical-disability",
+      "fileName": "kr-nise-2022-special-draft-pe-physical-disability.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.691Z",
+      "byteLength": 1853937,
+      "sha256": "a9cd9399ca2e18303559cd187f20fba8bb46e68f8401e42fc59e32b7b43b116d",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_112353"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-independent-living-visual",
+      "fileName": "kr-nise-2022-special-draft-independent-living-visual.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.703Z",
+      "byteLength": 2458583,
+      "sha256": "a93dbc4b550749a67fff4c5e10f3134f2667fe894e26af90154f0e3240b0442a",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_111720"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-pe-visual",
+      "fileName": "kr-nise-2022-special-draft-pe-visual.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.715Z",
+      "byteLength": 2410796,
+      "sha256": "3e32ce5283820ee845019cdfb8b31a1fc733c0a4d6bc01c0be700b71f37b4712",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_111112"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-braille",
+      "fileName": "kr-nise-2022-special-draft-braille.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.726Z",
+      "byteLength": 2164572,
+      "sha256": "c5e9bfcd88c93b15f4c45f8c4daff6ccdab4cffe5ae383a502d5846cb255a9a6",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_110442"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-art-visual",
+      "fileName": "kr-nise-2022-special-draft-art-visual.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.735Z",
+      "byteLength": 2010472,
+      "sha256": "a53ac410bb79574e97d295b8f678bca9e2ac180f1308bcd49e76651f0f1c9324",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_101942"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-deaf-life-culture",
+      "fileName": "kr-nise-2022-special-draft-deaf-life-culture.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.744Z",
+      "byteLength": 1423218,
+      "sha256": "17253414e045bb2cb698af28f54a477abd259a2c3bf7025c69bd21c6da000012",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_101115"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-korean-hearing",
+      "fileName": "kr-nise-2022-special-draft-korean-hearing.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.754Z",
+      "byteLength": 2883965,
+      "sha256": "0dd905ef8078863a6d801e50f25173fc162520bb8e25240b6c2ff2ea4a69333a",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_102642"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-sign-language",
+      "fileName": "kr-nise-2022-special-draft-sign-language.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.765Z",
+      "byteLength": 1905285,
+      "sha256": "e02286799a003137e421dbeb8ebd253fbe0647aa1f69d1f492491b41da683932",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_093946"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-creative-activities",
+      "fileName": "kr-nise-2022-special-draft-creative-activities.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.774Z",
+      "byteLength": 1462884,
+      "sha256": "ca8fa5d5b36e59cbccdcc621ffed1845a47ee63779881f9f2405abfe6c9a9e94",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_105748"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-daily-life",
+      "fileName": "kr-nise-2022-special-draft-daily-life.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.782Z",
+      "byteLength": 2136560,
+      "sha256": "a6b95013bfe0ab13f53b3e13e889c940a74771c9261e2d77882b946269c68e0c",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_175500"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-ict",
+      "fileName": "kr-nise-2022-special-draft-ict.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.791Z",
+      "byteLength": 1148560,
+      "sha256": "6516ec90e7004c9962d574d14c2752692986013f696c76c1b95bc1b26596f647",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_105329"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-life-english",
+      "fileName": "kr-nise-2022-special-draft-life-english.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.798Z",
+      "byteLength": 1830857,
+      "sha256": "ae0d256dc002f4480a1b9b5b132dda34ed6f686227a0b80447d648e62597373c",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_104551"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-career",
+      "fileName": "kr-nise-2022-special-draft-career.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.808Z",
+      "byteLength": 1457139,
+      "sha256": "cbfb315ffadaa8024263341e8e7f555feace7132c17dd4fb48b2262d41b451c8",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230112_103825"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-practical-arts",
+      "fileName": "kr-nise-2022-special-draft-practical-arts.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.814Z",
+      "byteLength": 1007083,
+      "sha256": "0bcae66d441fbda768ed6e82c89df714f9a4540f11ea711f099b8bc401dd2c39",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_161020"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-music",
+      "fileName": "kr-nise-2022-special-draft-music.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.823Z",
+      "byteLength": 3899054,
+      "sha256": "eb797e8bb5ce2195720a945937f187857488293bccedf56906b09bc61bb944c5",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_155300"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-art",
+      "fileName": "kr-nise-2022-special-draft-art.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.841Z",
+      "byteLength": 5585333,
+      "sha256": "72850502c7ca2151d80d29f852edb631535af4a20257fea7aa48b0a3f4836ad9",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_153544"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-pe",
+      "fileName": "kr-nise-2022-special-draft-pe.pdf",
+      "downloadedAt": "2026-08-19T05:53:46.864Z",
+      "byteLength": 1958327,
+      "sha256": "935e4f7942bd84249309be3272ba2e1cf5d2fb2ebf64e735f04dabf3a685f5b6",
+      "detectedFormat": "pdf",
+      "contentType": null,
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_152627"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-science",
+      "fileName": "kr-nise-2022-special-draft-science.pdf",
+      "downloadedAt": "2026-08-19T05:53:49.111Z",
+      "byteLength": 2550366,
+      "sha256": "5d3ffe061b11acdf69e73e67fe07322e8386bca57b49441db8538c46680d159e",
+      "detectedFormat": "pdf",
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=3&site=20230111_151158"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-math",
+      "fileName": "kr-nise-2022-special-draft-math.pdf",
+      "downloadedAt": "2026-08-19T05:53:51.465Z",
+      "byteLength": 2855218,
+      "sha256": "b50f1c1436ddb6df929b26023254a9a1769298d3e352906a2057720df37ce192",
+      "detectedFormat": "pdf",
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230111_143743"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-korean",
+      "fileName": "kr-nise-2022-special-draft-korean.pdf",
+      "downloadedAt": "2026-08-19T05:53:53.419Z",
+      "byteLength": 3215104,
+      "sha256": "f3a0ce0d46fad5c295bb6193c712a70e86e987f11c1d030aaa8c44e58b958e8c",
+      "detectedFormat": "pdf",
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230109_114029"
+    },
+    {
+      "sourceId": "kr-nise-2022-special-draft-general",
+      "fileName": "kr-nise-2022-special-draft-general.pdf",
+      "downloadedAt": "2026-08-19T05:53:56.012Z",
+      "byteLength": 2822097,
+      "sha256": "635c92ed8618c56c31b0633b1c8050baa0d76c651be3ef669a43693ba49fb9ac",
+      "detectedFormat": "pdf",
+      "contentType": "application/pdf",
+      "finalUrl": "https://www.nise.go.kr/ebook/src/viewer/download.php?host=main&no=1&site=20230109_093724"
+    },
+    {
+      "sourceId": "kr-nec-2025-curriculum-monitoring-special",
+      "fileName": "kr-nec-2025-curriculum-monitoring-special.pdf",
+      "downloadedAt": "2026-08-19T05:53:56.310Z",
+      "byteLength": 4870185,
+      "sha256": "76307a8ff9d600d04e663454a8583bd1c7cbb653363832ed2da0f8758b721867",
+      "detectedFormat": "pdf",
+      "contentType": "application/octet-stream",
+      "finalUrl": "https://ncic.re.kr/bbs/download.do?articleIdx=1884&fileName=1781482871117_m6c0.pdf"
+    }
+  ]
+}
