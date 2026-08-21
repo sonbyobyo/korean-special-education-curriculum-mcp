@@ -1,0 +1,32 @@
+name: Release artifacts
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Verify source and package
+        run: npm run check && npm run verify:core && npm audit
+      - name: Build Claude Desktop bundle
+        run: npm run mcpb:pack
+      - name: Build npm package
+        run: npm pack --pack-destination artifacts
+      - name: Upload release files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" artifacts/*.mcpb artifacts/*.tgz --clobber

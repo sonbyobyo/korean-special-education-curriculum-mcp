@@ -12,12 +12,17 @@
 
 ## 출처와 데이터 규칙
 
-- 공식 HWP·HWPX·PDF, 추출 Markdown과 IR JSON은 커밋하지 않는다.
+- 공식 HWP·HWPX·PDF, 추출 Markdown과 보충자료 IR JSON은 커밋하지 않는다.
+- `data/core/ir`은 공공누리 제1유형으로 확인된 현행 법정 29개만
+  `npm run data:core`로 생성한다. 수동 편집하거나 다른 자료를 섞지 않는다.
 - 새 출처는 `sources/official/source-catalog.json`에 공식 게시 페이지, 문서 식별자,
   발행기관, 게시일, 권리정책과 로컬 파일명을 기록한다.
 - 고시 원문과 해설·평가·연구자료를 같은 `materialKind`로 분류하지 않는다.
 - 성취기준이나 원문을 사람이 임의로 수정한 뒤 공식 원문으로 표시하지 않는다.
 - 참고 저장소의 코드나 스키마를 복사할 경우 해당 라이선스와 파일별 기원을 명시한다.
+
+코어 데이터가 바뀌면 `data/core/manifest.json`의 출처 수·쪽수·청크 수·SHA-256도 함께
+갱신되고 `npm run test:mcp:core`를 통과해야 한다.
 
 ## 이슈 작성
 

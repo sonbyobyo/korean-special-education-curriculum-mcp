@@ -1,5 +1,6 @@
+import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
-import { join } from "node:path";
+import { join, resolve } from "node:path";
 import type {
   CurriculumType,
   ExtractedChunk,
@@ -50,6 +51,19 @@ export interface SearchHit {
   excerpt: string;
 }
 
+function uniqueExistingDirectories(paths: string[]): string[] {
+  return [...new Set(paths.map((path) => resolve(path)))].filter((path) => existsSync(path));
+}
+
+export function findCorpusDirectories(projectRoot = findProjectRoot()): string[] {
+  const configured = process.env.KSEC_MCP_DATA_DIR?.trim();
+  return uniqueExistingDirectories([
+    ...(configured ? [configured] : []),
+    join(projectRoot, "sources", "official", "ir"),
+    join(projectRoot, "data", "core", "ir")
+  ]);
+}
+
 function normalize(value: string): string {
   return value.normalize("NFKC").toLocaleLowerCase("ko-KR").replace(/\s+/g, " ").trim();
 }
@@ -95,25 +109,33 @@ function matchesSchoolLevel(chunk: ExtractedChunk, schoolLevel?: SchoolLevel): b
 
 export async function loadCorpus(): Promise<CurriculumCorpus> {
   const catalog = await loadSourceCatalog();
-  const irDir = join(findProjectRoot(), "sources", "official", "ir");
+  const irDirectories = findCorpusDirectories();
   const documents: CorpusDocument[] = [];
   const missingSourceIds: string[] = [];
 
   for (const source of catalog.sources) {
-    try {
-      const raw = await readFile(join(irDir, `${source.id}.json`), "utf8");
-      const extracted = JSON.parse(raw) as ExtractedDocument;
-      if (extracted.sourceId !== source.id || !Array.isArray(extracted.chunks)) {
-        throw new Error(`추출 데이터 형식 오류: ${source.id}`);
+    let extracted: ExtractedDocument | null = null;
+    for (const irDirectory of irDirectories) {
+      try {
+        const raw = await readFile(join(irDirectory, `${source.id}.json`), "utf8");
+        extracted = JSON.parse(raw) as ExtractedDocument;
+        if (extracted.sourceId !== source.id || !Array.isArray(extracted.chunks)) {
+          throw new Error(`추출 데이터 형식 오류: ${source.id}`);
+        }
+        break;
+      } catch (error) {
+        const code = error instanceof Error && "code" in error ? String(error.code) : "";
+        if (code !== "ENOENT") throw error;
       }
+    }
+
+    if (extracted) {
       documents.push({
         source,
         pageCount: extracted.pageCount ?? null,
         chunks: extracted.chunks
       });
-    } catch (error) {
-      const code = error instanceof Error && "code" in error ? String(error.code) : "";
-      if (code !== "ENOENT") throw error;
+    } else {
       missingSourceIds.push(source.id);
     }
   }

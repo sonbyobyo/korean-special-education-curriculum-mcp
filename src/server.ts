@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { McpServer } from "@modelcontextprotocol/server";
 import { serveStdio } from "@modelcontextprotocol/server/stdio";
 import { z } from "zod";
@@ -9,7 +11,7 @@ import {
 } from "./lib/corpus.js";
 import { buildCoverageReport } from "./lib/coverage.js";
 
-const version = "0.1.0-candidate";
+const version = "0.1.0";
 const currentUseNote =
   "중·고등학교 범위의 현행 특수교육 별책과 준용 일반교육과정 별책을 함께 검색합니다. " +
   "해설서·성취수준·평가기준·연구자료는 고시 원문과 법적 지위가 다른 별도 자료로 구분합니다. " +
