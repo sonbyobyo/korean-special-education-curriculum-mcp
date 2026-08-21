@@ -1,5 +1,5 @@
 import { spawn } from "node:child_process";
-import { join } from "node:path";
+import { isAbsolute, join, resolve } from "node:path";
 import { findProjectRoot } from "../src/lib/paths.js";
 
 interface RpcResponse {
@@ -9,7 +9,13 @@ interface RpcResponse {
 }
 
 const rootDir = findProjectRoot();
-const child = spawn(process.execPath, [join(rootDir, "dist", "src", "server.js")], {
+const serverOptionIndex = process.argv.indexOf("--server");
+const serverOption = serverOptionIndex >= 0 ? process.argv[serverOptionIndex + 1] : undefined;
+const serverPath = serverOption
+  ? isAbsolute(serverOption) ? serverOption : resolve(rootDir, serverOption)
+  : join(rootDir, "dist", "src", "server.js");
+const expectSupplements = !process.argv.includes("--core");
+const child = spawn(process.execPath, [serverPath], {
   cwd: rootDir,
   stdio: ["pipe", "pipe", "pipe"]
 });
@@ -128,19 +134,21 @@ async function main(): Promise<void> {
     throw new Error("검색 결과의 출처 추적 필드가 불완전합니다.");
   }
 
-  for (const [id, materialKind, query] of [
-    [6, "achievement", "성취수준"],
-    [7, "research", "특수교육 교육과정"]
-  ] as const) {
-    const supplemental = assertOk(
-      await request(id, "tools/call", {
-        name: "search_curriculum",
-        arguments: { query, materialKind, limit: 2 }
-      }),
-      `${materialKind} search_curriculum`
-    );
-    const supplementalData = supplemental.structuredContent as { resultCount?: number } | undefined;
-    if (!supplementalData?.resultCount) throw new Error(`${materialKind} 코퍼스 검색 결과가 비어 있습니다.`);
+  if (expectSupplements) {
+    for (const [id, materialKind, query] of [
+      [6, "achievement", "성취수준"],
+      [7, "research", "특수교육 교육과정"]
+    ] as const) {
+      const supplemental = assertOk(
+        await request(id, "tools/call", {
+          name: "search_curriculum",
+          arguments: { query, materialKind, limit: 2 }
+        }),
+        `${materialKind} search_curriculum`
+      );
+      const supplementalData = supplemental.structuredContent as { resultCount?: number } | undefined;
+      if (!supplementalData?.resultCount) throw new Error(`${materialKind} 코퍼스 검색 결과가 비어 있습니다.`);
+    }
   }
 
   process.stdout.write(

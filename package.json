@@ -1,40 +1,79 @@
 {
   "name": "korean-special-education-curriculum-mcp",
-  "version": "0.1.0-candidate",
-  "private": true,
+  "version": "0.1.0",
+  "private": false,
   "description": "대한민국 2022 개정 특수교육 교육과정의 출처 추적형 읽기 전용 MCP 서버",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSES.md",
   "type": "module",
+  "bin": {
+    "korean-special-education-curriculum-mcp": "dist/src/server.js"
+  },
+  "files": [
+    "dist/src",
+    "data/core",
+    "sources/official/source-catalog.json",
+    "ACKNOWLEDGEMENTS.md",
+    "LICENSE",
+    "LICENSES.md",
+    "PROVENANCE.md",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonbyobyo/korean-special-education-curriculum-mcp.git"
+  },
+  "homepage": "https://github.com/sonbyobyo/korean-special-education-curriculum-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/sonbyobyo/korean-special-education-curriculum-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "special-education",
+    "curriculum",
+    "korean-education",
+    "2022-revised-curriculum"
+  ],
   "engines": {
     "node": ">=20"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepack": "npm run build && node dist/scripts/verify-core-bundle.js",
     "check": "npm run typecheck && npm test",
     "check:full": "npm run check && npm run verify:full && npm run test:mcp",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run tests",
     "test:mcp": "npm run build && node dist/scripts/smoke-mcp.js",
+    "test:mcp:core": "npm run mcpb:stage --silent && node dist/scripts/smoke-mcp.js --server .tmp/mcpb/server/server.js --core",
     "verify:full": "npm run build --silent && node dist/scripts/verify-full-corpus.js",
+    "verify:core": "npm run build --silent && node dist/scripts/verify-core-bundle.js",
     "sources:download": "npm run build --silent && node dist/scripts/collect-official-sources.js",
     "sources:extract": "npm run build --silent && node dist/scripts/extract-official-sources.js",
     "sources:prepare": "npm run build --silent && node dist/scripts/collect-official-sources.js && node dist/scripts/extract-official-sources.js",
+    "data:core": "npm run build --silent && node dist/scripts/build-core-bundle.js",
+    "mcpb:stage": "npm run build --silent && node dist/scripts/verify-core-bundle.js && node dist/scripts/build-mcpb.js",
+    "mcpb:validate": "npm run mcpb:stage --silent && mcpb validate .tmp/mcpb",
+    "mcpb:pack": "npm run mcpb:stage --silent && mcpb pack .tmp/mcpb artifacts/korean-special-education-curriculum-mcp-0.1.0.mcpb",
     "serve": "npm run build --silent && node dist/src/server.js",
     "start": "node dist/src/server.js"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "2.0.0",
-    "kordoc": "4.9.0",
-    "pdfjs-dist": "4.10.38",
     "zod": "4.4.3"
   },
   "devDependencies": {
+    "@anthropic-ai/mcpb": "2.1.2",
     "@types/node": "26.2.0",
+    "kordoc": "4.9.0",
+    "pdfjs-dist": "4.10.38",
     "typescript": "7.0.2",
     "vitest": "4.1.11"
   },
   "overrides": {
     "adm-zip": "0.6.0",
-    "sharp": "0.35.3"
+    "sharp": "0.35.3",
+    "tmp": "0.2.7"
   }
 }
