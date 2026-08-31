@@ -3,6 +3,7 @@
 import { McpServer } from "@modelcontextprotocol/server";
 import { serveStdio } from "@modelcontextprotocol/server/stdio";
 import { z } from "zod";
+import { startHttpServer } from "./http.js";
 import {
   findChunk,
   loadCorpus,
@@ -198,6 +199,19 @@ export function createServer(corpus: CurriculumCorpus): McpServer {
   return server;
 }
 
-serveStdio(async () => createServer(await loadCorpus()), {
-  onerror: (error) => process.stderr.write(`[mcp] ${error.message}\n`)
+async function main(): Promise<void> {
+  const corpus = await loadCorpus();
+  if (process.env.MCP_TRANSPORT === "http") {
+    await startHttpServer(() => createServer(corpus));
+    return;
+  }
+  await serveStdio(async () => createServer(corpus), {
+    onerror: (error) => process.stderr.write(`[mcp] ${error.message}\n`)
+  });
+}
+
+void main().catch((error: unknown) => {
+  const message = error instanceof Error ? error.stack ?? error.message : String(error);
+  process.stderr.write(`[mcp] ${message}\n`);
+  process.exitCode = 1;
 });

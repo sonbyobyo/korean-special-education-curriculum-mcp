@@ -8,6 +8,17 @@
 
 기본 설치에는 현행 법정 교육과정 29개가 이미 들어 있으므로 교육과정 파일을 따로 내려받지 않습니다.
 
+### ChatGPT 웹
+
+학교가 ChatGPT Business 또는 Enterprise/Edu를 사용한다면, 관리자가 공개 HTTPS 주소의 원격 MCP를 한 번 등록·게시해 교사 전체에 제공할 수 있습니다.
+
+1. 서버를 컨테이너 호스팅에 배포합니다. 이 저장소의 `Dockerfile`을 사용하고 환경 변수 `MCP_TRANSPORT=http`을 지정합니다.
+2. 배포 주소의 `https://도메인/mcp`를 확인합니다. `https://도메인/healthz`는 운영 점검용입니다.
+3. ChatGPT 웹의 **Settings → Apps → Create custom app**에서 MCP 주소를 입력하고 인증은 **No authentication**으로 선택합니다.
+4. **Scan tools** 결과에 다섯 개 도구가 나타나면 생성하고, 워크스페이스 관리자가 앱을 게시합니다.
+
+서버에는 공개 교육과정 검색어가 전달될 수 있으므로, 학생 이름·개인정보가 포함된 프롬프트는 입력하지 않도록 교사 안내문에 명시하세요.
+
 ## 2. 연결
 
 ### Claude Desktop

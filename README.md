@@ -4,6 +4,35 @@
 
 기본 설치에는 현행 법정 교육과정 29개 문서가 내장되어 있습니다. 사용자가 교육과정 파일을 따로 내려받거나 Kordoc을 실행할 필요가 없습니다.
 
+## ChatGPT 웹에서 사용하기
+
+ChatGPT 웹에 등록하려면 이 프로젝트를 **공개 HTTPS 원격 MCP 서버**로 먼저 배포해야 합니다. 로컬 `npx` 명령이나 `.mcpb` 파일은 교사의 웹 브라우저에서 등록할 수 없습니다.
+
+이 저장소에는 원격 실행용 `Dockerfile`이 포함되어 있습니다. Cloud Run 등의 컨테이너 호스팅에 배포할 때 환경 변수 `MCP_TRANSPORT=http`을 설정하고, 플랫폼이 지정한 `PORT`를 그대로 사용하세요. Cloud Run의 전체 절차는 [배포 안내](docs/CLOUD_RUN.md)를 따르세요. 배포 뒤 교사에게 제공할 주소는 다음 형식입니다.
+
+```text
+https://mcp.example.kr/mcp
+```
+
+`/healthz`는 운영 상태 확인용이며, ChatGPT에는 `/mcp` 주소만 등록합니다. 이 서버는 공식 공개 교육과정만 읽기 전용으로 검색하므로 첫 배포에서는 인증을 사용하지 않아도 됩니다. 운영 환경에서는 반드시 HTTPS, 요청 속도 제한, 서비스 이용 안내를 함께 제공하세요.
+
+### ChatGPT 등록 절차
+
+1. ChatGPT 웹에서 **Settings → Apps**를 열고, 조직에서 허용한 경우 **Developer mode / Create custom app**을 활성화합니다.
+2. 새 앱의 MCP server URL에 `https://mcp.example.kr/mcp`를 입력합니다.
+3. 인증 방식은 **No authentication**으로 선택하고 **Scan tools**를 실행합니다.
+4. `get_coverage_report`, `search_curriculum` 등 다섯 도구가 나타나는지 확인한 뒤 앱을 생성합니다.
+5. 학교용 ChatGPT Business 또는 Enterprise/Edu 워크스페이스라면 관리자가 앱을 게시해 교사들에게 배포합니다.
+
+ChatGPT 웹의 커스텀 MCP 앱 생성·게시 가능 여부는 요금제와 워크스페이스 관리자 정책에 따라 달라집니다. OpenAI의 최신 절차는 [Developer mode and MCP apps in ChatGPT](https://help.openai.com/en/articles/12584461-developer-mode-and-full-mcp-connectors-in-chatgpt)를 확인하세요.
+
+등록을 마친 뒤에는 다음처럼 요청할 수 있습니다.
+
+```text
+2022 개정 특수교육 기본 교육과정에서 고등학교 국어 성취기준을 찾아,
+원문·문서명·쪽수·공식 URL을 표로 정리해줘.
+```
+
 ## 가장 쉬운 설치
 
 ### Claude Desktop: 파일 하나로 설치

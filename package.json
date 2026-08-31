@@ -57,6 +57,7 @@
     "mcpb:validate": "npm run mcpb:stage --silent && mcpb validate .tmp/mcpb",
     "mcpb:pack": "npm run mcpb:stage --silent && mcpb pack .tmp/mcpb artifacts/korean-special-education-curriculum-mcp-0.1.0.mcpb",
     "serve": "npm run build --silent && node dist/src/server.js",
+    "serve:http": "npm run build --silent && node -e \"process.env.MCP_TRANSPORT='http'; import('./dist/src/server.js')\"",
     "start": "node dist/src/server.js"
   },
   "dependencies": {

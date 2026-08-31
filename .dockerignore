@@ -1,0 +1,7 @@
+.git
+.tmp
+artifacts
+dist
+node_modules
+sources/official/ir
+coverage
